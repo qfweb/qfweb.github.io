@@ -1,0 +1,551 @@
+body {
+    font: 14px "微软雅黑";
+    color: #000;
+}
+
+.margin {
+    width: 88%;
+    margin: 0 auto;
+}
+
+
+/* banner css start */
+
+#banner {
+    margin-top: 62px;
+    position: relative;
+}
+
+#banner img {
+    position: relative;
+    height: 484px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.retop {
+    overflow: hidden;
+    position: fixed;
+    right: 0px;
+    bottom: 10%;
+    z-index: 9990;
+    width: 50px;
+    height: 50px;
+}
+
+.retop img {
+    width: 100%;
+}
+
+
+/* banner css end */
+
+
+/* main css start */
+
+#main {
+    width: 100%;
+    background: #fff;
+}
+
+.main-a {
+    overflow: hidden;
+    margin-top: 60px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.main-a p {
+    overflow: hidden;
+    width: 50%;
+    float: left;
+}
+
+.main-a p span {
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    color: #666;
+    line-height: 20px;
+}
+
+.main-a p i {
+    width: 100%;
+    display: block;
+    font-size: 26px;
+    line-height: 30px;
+    color: #333;
+}
+
+.main-a a {
+    float: right;
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #343434;
+    text-transform: uppercase;
+    background: url(../images/德普科技/in_02.png) right center no-repeat;
+    padding-right: 15px;
+}
+
+
+/* main-b css  */
+
+.main-b {
+    overflow: hidden;
+    margin-top: 30px;
+    height: 618px;
+}
+
+.main-b .left {
+    width: 49%;
+    position: relative;
+    height: 100%;
+}
+
+.main-b .left>div:first-child {
+    width: 100%;
+    height: 100%;
+}
+
+.main-b .left>div:first-child img {
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+
+.main-b .left>div:last-child {
+    width: 54%;
+    overflow: hidden;
+    display: block;
+    font-style: normal;
+    background-color: rgba(14, 97, 174, 0.86);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    padding: 20px 0px;
+}
+
+.main-b .left>div:last-child span {
+    width: 90%;
+    display: block;
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.main-b .left>div:last-child span:nth-child(1) {
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+}
+
+.main-b .left>div:last-child span:nth-child(2) {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #d4e3f1;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.main-b .left>div:last-child span:nth-child(3) {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #00a2fb;
+    line-height: 24px;
+}
+
+.main-b .left>div:last-child span:nth-child(4) {
+    margin-top: 40px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.main-b .left>div:last-child span:nth-child(4) i {
+    display: inline-block;
+    background: url(../images/德普科技/in_03.png) left center no-repeat;
+    padding-left: 25px;
+    background-size: 16px;
+}
+
+.main-b .right {
+    width: 49%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.main-b .right div:first-child {
+    margin-bottom: 4%;
+    height: 48%;
+}
+
+.main-b .right div:first-child ul {
+    height: 100%;
+}
+
+.main-b .right div:first-child li {
+    width: 48%;
+    overflow: hidden;
+    float: left;
+    margin-right: 4%;
+    position: relative;
+    height: 100%;
+}
+
+.main-b .right div:first-child li a {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    background-color: #f7f7f7;
+    position: relative;
+    height: 100%;
+    text-transform: uppercase;
+}
+
+.main-b .right div:first-child li a span {
+    width: 80%;
+    display: block;
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.main-b .right div:first-child li a span:nth-child(1) {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+    line-height: 30px;
+}
+
+.main-b .right div:first-child li a span:nth-child(2) {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #00a2fb;
+    line-height: 24px;
+}
+
+.main-b .right div:first-child li a span:nth-child(3) {
+    position: absolute;
+    left: 10%;
+    bottom: 20px;
+}
+
+.main-b .right div:first-child li a span:nth-child(3) i {
+    display: inline-block;
+    color: #484d61;
+    background: url(../images/德普科技/in_01.png) left center no-repeat;
+    padding-left: 25px;
+    background-size: 16px;
+}
+
+.main-b .right div:last-child {
+    width: 100%;
+    overflow: hidden;
+    height: 48%;
+}
+
+.main-b .right div:last-child a {
+    background: url(../images/德普科技/t2.jpg) center center / cover no-repeat;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.main-b .right div:last-child a span {
+    width: 90%;
+    display: block;
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.main-b .right div:last-child a span:nth-child(1) {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.main-b .right div:last-child a span:nth-child(2) {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #00a2fb;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.main-b .right div:last-child a span:nth-child(3) {
+    position: absolute;
+    left: 5%;
+    bottom: 20px;
+}
+
+.main-b .right div:last-child a span:nth-child(3) i {
+    display: inline-block;
+    color: #fff;
+    background: url(../images/德普科技/in_03.png) left center no-repeat;
+    padding-left: 25px;
+    background-size: 16px;
+}
+
+
+/* main-c css start */
+
+.main-c {
+    overflow: hidden;
+    margin-top: 60px;
+    background-color: #f7f7f7;
+    padding-bottom: 60px;
+}
+
+.main-c-t {
+    width: 80%;
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 0px;
+    margin-top: 60px;
+}
+
+.main-c-t a {
+    background: #fff;
+    display: block;
+}
+
+.main-c-t div {
+    float: left;
+    width: 50%;
+}
+
+.main-c-t div:nth-child(1) {
+    padding-top: 40px;
+}
+
+.main-c-t div:nth-child(1) span {
+    width: 80%;
+    display: block;
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.main-c-t div:nth-child(1) span:nth-child(2) {
+    margin-top: 10px;
+    position: relative;
+    font-size: 20px;
+    color: #1a1a1a;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.main-c-t div:nth-child(1) span:nth-child(2) i {
+    width: 30px;
+    height: 1px;
+    display: block;
+    overflow: hidden;
+    background-color: #d1d1d1;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.main-c-t div:nth-child(1) span:nth-child(3) {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #4c4c4c;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.main-c-t div:nth-child(1) span:nth-child(4) {
+    margin-top: 30px;
+}
+
+.main-c-t div:nth-child(1) span:nth-child(4) b {
+    display: inline-block;
+    line-height: 40px;
+    padding: 0px 40px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background: url(../images/德普科技/top_03.jpg) no-repeat;
+    background-size: 100% 100%;
+    font-size: 14px;
+    color: #fff;
+}
+
+.main-c-t div:nth-child(2) img {
+    width: 100%;
+    display: block;
+}
+
+
+/* main-c-b css start */
+
+.main-c-b {
+    width: 100%;
+    margin-top: 60px;
+    position: relative;
+}
+
+.main-c-b ul {
+    width: 70%;
+    overflow: hidden;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-c-b ul li {
+    width: 23%;
+    background: #fff;
+}
+
+.main-c-b ul li a {
+    display: block;
+    box-shadow: 0px 0px 10px rgba(23, 25, 46, 0.08);
+}
+
+.main-c-b ul li img {
+    width: 100%
+}
+
+.main-c-b ul li span {
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    color: #333;
+    line-height: 24px;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+.main-c-b ul li:hover span {
+    background: url(../images/德普科技/top_03.jpg) no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+}
+
+.main-c-b>a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #e6e6e6;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: #333;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px
+}
+
+.main-c-b>a:nth-child(3) {
+    left: 11%;
+}
+
+.main-c-b>a:nth-child(2) {
+    right: 11%;
+}
+
+.main-c-b>a:hover {
+    background: url(../images/德普科技/top_03.jpg) no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    border: 0px;
+    padding: 1px;
+}
+
+
+/* main-d css start */
+
+.main-d {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.main-d>div {
+    box-sizing: border-box;
+    width: 33%;
+    border-right: 1px solid #f0f0f0
+}
+
+.main-d>div a {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+
+.main-d>div a span {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+
+.main-d>div a span:nth-child(1) {
+    margin-top: 160px;
+    font-size: 14px;
+    color: #b2b2b2;
+    line-height: 24px;
+}
+
+.main-d>div a span:nth-child(2) {
+    font-size: 24px;
+    color: #000;
+    line-height: 30px;
+}
+
+.main-d>div a span:nth-child(3) {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #333;
+    line-height: 26px;
+}
+
+.main-d>div a span:nth-child(4) {
+    margin-top: 40px;
+}
+
+.main-d>div a span:nth-child(4) i {
+    height: 40px;
+    display: inline-block;
+    padding: 0px 40px;
+    border-radius: 20px;
+    background: url(../images/德普科技/top_03.jpg) no-repeat;
+    background-size: 100% 100%;
+    font-size: 14px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.main-d>p {
+    top: 50px;
+    position: absolute;
+    width: 94%;
+    margin: 0 auto;
+}
+
+.main-d>p span {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    color: #666;
+    line-height: 20px;
+}
+
+.main-d>p i {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    font-size: 26px;
+    line-height: 30px;
+    color: #333;
+}
+
+
+/* main css end */

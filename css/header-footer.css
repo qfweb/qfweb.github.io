@@ -1,0 +1,524 @@
+/* header css start */
+
+header {
+    height: 62px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    z-index: 10;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.inner {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.inner .logo {
+    float: left;
+    padding: 10px 0 15px 0;
+    overflow: hidden;
+    border-right: 1px solid #f7f7f7;
+}
+
+.inner .logo img {
+    margin: 0 20px;
+    height: 36px;
+}
+
+
+/* logo css end */
+
+.inner nav .header-c {
+    margin-right: 99.5px;
+}
+
+.inner nav .header-c li {
+    float: left;
+    overflow: hidden;
+    line-height: 61px;
+    margin-right: 30px;
+}
+
+.inner nav .header-c li a {
+    font-size: 15px;
+    color: #666;
+    position: relative;
+}
+
+.inner nav .header-c li i {
+    position: absolute;
+    bottom: -21px;
+    height: 2px;
+    width: 0;
+    background: url(../images/德普科技/top_03.jpg) no-repeat;
+    background-size: 100% 100%;
+    left: 50%;
+    transition: all 0.5s;
+}
+
+.inner nav .header-c li:hover i {
+    left: 0;
+    width: 100%;
+}
+
+.header-r-l {
+    border-left: 1px solid #f7f7f7;
+    width: 61px;
+}
+
+.header-r-l a {
+    text-indent: -100px;
+    width: 19px;
+    height: 61px;
+    overflow: hidden;
+    display: block;
+    background: url(../images/德普科技/top_01.jpg) center no-repeat;
+    background-size: 100%;
+    margin: 0px auto;
+}
+
+.header-r-c {
+    float: left;
+    padding-right: 20px;
+    border-left: 1px solid #f7f7f7;
+    padding-left: 20px;
+}
+
+.header-r-c a {
+    float: left;
+    line-height: 61px;
+    font-size: 15px;
+    color: #666;
+}
+
+.header-r-c a:nth-child(2) {
+    margin-left: 10px;
+}
+
+.header-r-r {
+    float: left;
+    width: 61px;
+    border-left: 1px solid #f7f7f7;
+    text-align: center;
+    position: relative;
+}
+
+.header-r-r a {
+    display: inline-block;
+    line-height: 61px;
+    font-size: 15px;
+    color: #666;
+    background: url(../images/德普科技/top_02.jpg) right center no-repeat;
+    padding-right: 10px
+}
+
+
+/* menu */
+
+.menu {
+    width: 34px;
+    height: 48px;
+    border-left: 1px solid #f7f7f7;
+    padding: 13px 20px 0;
+    display: none;
+}
+
+.menu ul {
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu ul li {
+    cursor: pointer;
+    width: 60%;
+    overflow: hidden;
+    height: 2px;
+    background-color: #1a1a1a;
+    position: absolute;
+    left: 15%;
+    top: 18px;
+}
+
+.menu ul li:first-child {
+    top: 10px;
+}
+
+.menu ul li:last-child {
+    top: 26px;
+}
+
+
+/* 二级导航 */
+
+.top-subnav,
+.t-nav1,
+.t-nav2 {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background: #fff;
+    top: 61px;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+.header-c li:hover .top-subnav {
+    height: 252px;
+    border-top: 1px solid #ddd;
+}
+
+.header-c li:hover .t-nav1 {
+    height: 374px;
+    border-top: 1px solid #ddd;
+}
+
+.header-r .header-r-l:hover .t-nav2 {
+    height: 91px;
+    border-top: 1px solid #ddd;
+}
+
+.top-subnav>div:first-child {
+    width: 26%;
+    float: left;
+    padding: 20px;
+}
+
+.top-subnav>div:first-child img {
+    width: 100%;
+}
+
+.top-subnav>div:last-child {
+    overflow: hidden;
+    float: left;
+    margin-left: 4%;
+    margin-bottom: 20px;
+}
+
+.top-subnav>div:last-child dl {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.top-subnav>div:last-child dl dt {
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px solid #5d5d5d;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    line-height: 1;
+}
+
+.top-subnav>div:last-child dl dt a {
+    font-size: 18px;
+    color: #0078f0;
+}
+
+.top-subnav>div:last-child dl dd {
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    line-height: 26px;
+}
+
+.top-subnav>div:last-child dl dd a {
+    font-size: 14px;
+    color: #666;
+}
+
+.top-subnav>div:last-child dl dd a:hover {
+    color: #0078f0;
+}
+
+.t-nav1>div {
+    width: 100%;
+    overflow: hidden;
+    margin: 30px auto;
+    padding: 0px;
+    max-width: 1200px;
+}
+
+.t-nav1>div dl {
+    width: 22%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 4%;
+}
+
+.t-nav1>div dl dt {
+    line-height: 40px;
+    border-bottom: 1px solid #5d5d5d;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.inner .t-nav1>div dl dt a {
+    font-size: 18px;
+    color: #0078f0;
+}
+
+.t-nav1>div dl dd {
+    margin-bottom: 10px;
+}
+
+.t-nav1>div dl dd div {
+    width: 100%;
+    overflow: hidden;
+}
+
+.t-nav1>div dl dd div>a {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    background: url(../images/德普科技/top_05.png) 90% center no-repeat #f5f5f5;
+    background-size: 10px;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 5px 0px;
+    text-indent: 4%;
+}
+
+.t-nav1>div dl dd div>p {
+    line-height: 20px;
+}
+
+.t-nav1>div dl dd div>p a:hover {
+    color: #0078f0;
+}
+
+.t-nav2 {
+    text-align: center;
+}
+
+.t-nav2 i {
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    line-height: 91px;
+}
+
+.t-nav2 i [type="text"] {
+    width: 100%;
+    height: 38px;
+    border: 1px solid #ccc;
+    text-indent: 10px;
+}
+
+.t-nav2 i [type="submit"] {
+    width: 19px;
+    height: 38px;
+    display: block;
+    overflow: hidden;
+    background: url(../images/德普科技/top_04.jpg) center no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 10px;
+    top: 27px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.t-nav2 a {
+    width: 19px;
+    height: 100%;
+    display: block;
+    background: url(../images/德普科技/close.png) center no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 2%;
+    top: 0px;
+}
+
+.last1 {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 61px;
+    background-color: #fff;
+    padding: 10px 0px;
+    display: none;
+}
+
+.header-r-r:hover .last1 {
+    display: block;
+}
+
+.last1 p {
+    width: 100%;
+    overflow: hidden;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.last1 p a {
+    font-size: 15px;
+    color: #666;
+    line-height: 26px;
+    background: none;
+}
+
+
+/* header css end */
+
+
+/* footer css start */
+
+.f-t {
+    background-color: #f7f7f7;
+    padding: 30px 0px;
+}
+
+.f-t .f-t-l {
+    width: 20%;
+}
+
+.f-t .f-t-l div:nth-child(1) p {
+    width: 100%;
+    overflow: hidden;
+}
+
+.f-t .f-t-l div:nth-child(1) p i {
+    display: inline-block;
+}
+
+.f-t .f-t-l div:nth-child(1) p:first-child i span {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    color: #666;
+}
+
+.f-t .f-t-l div:nth-child(1) p:last-child a {
+    width: 34px;
+    height: 34px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+}
+
+.f-t .f-t-c {
+    width: 60%;
+    text-align: center;
+    border-right: 1px solid #dcdcdc;
+    border-left: 1px solid #dcdcdc;
+}
+
+.f-t .f-t-c div {
+    display: inline-block;
+}
+
+.f-t .f-t-c div dl {
+    margin: 0px 30px;
+    float: left;
+    vertical-align: top;
+    text-align: left;
+}
+
+.f-t .f-t-c div dl dt {
+    padding: 0px;
+    line-height: 26px;
+    margin-bottom: 5px;
+}
+
+.f-t .f-t-c div dl dt a {
+    font-size: 16px;
+    color: #000;
+}
+
+.f-t .f-t-c div dl dd a {
+    line-height: 24px;
+    color: #666
+}
+
+.f-t .f-t-c div dl a:hover {
+    color: #1763ad;
+}
+
+.f-t .f-t-r {
+    width: 19%;
+    vertical-align: middle;
+    position: relative;
+    height: 156px;
+}
+
+.f-t .f-t-r div {
+    width: 50%;
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 0px;
+    cursor: pointer;
+    height: 100%;
+}
+
+.f-t .f-t-r div p {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.f-t .f-t-r div>span {
+    vertical-align: middle;
+    display: inline-block;
+    height: 100%;
+}
+
+.f-t .f-t-r div p span {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    font-size: 16px;
+    color: #000;
+    line-height: 40px;
+}
+
+
+/* f-t css end */
+
+
+/* f-b css start */
+
+.f-b {
+    background-color: #1a66ac;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+
+.f-b a {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #9abcdb;
+}
+
+.f-b a:hover {
+    color: #fff
+}
+
+.f-b em {
+    font-size: 14px;
+    color: #9abcdb;
+    margin-left: 30px;
+}
+
+.f-b em span {
+    display: inline-block;
+    margin: 0px 10px;
+}
